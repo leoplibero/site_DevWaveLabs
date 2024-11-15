@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Wave Labs - Soluções Digitais</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/Logo.png" >DEV WAVE LABS</div>
+        <nav>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#testimonials">Clientes</a>
+            <a href="#contact">Contato</a>
+        </nav>
+        <a href="#contact" class="cta-button">Solicite uma Proposta</a>
+    </header>
+
+    <section id="hero">
+        <h1>Transformamos Ideias em Soluções Digitais</h1>
+        <p>Impulsione seu negócio com as melhores soluções em tecnologia.</p>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/site1.png" alt="Odyssey Travel">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/site2.png" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/site3.png" alt="Imagem 3">
+                </div>
+            </div>
+            <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+            <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        <a href="#services" class="cta-button">Nossos Serviços</a>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma empresa de serviços e consultoria em TI e Telecom que oferece projetos de implantação, suporte à infrestrutura e aplicações, direcionando a empresas de diferentes portes e segmentos. Nossa metodologia de trabalho baseia-se na constante evolução dos processos de gestão da operação e de projetos de TI. Temos sempre como objetivo final possibilitar que os nossos clientes utilizem a tecnologia como potencializador de seus negócios. A Diversa vem desde 2006 ajudando os seus clientes a alavancarem seus negócios, utilizando sempre uma TI estratégica eficiente.</p>
+    </section>
+
+    <section id="services">
+        <h2>Serviços</h2>
+        <div class="service">
+            <h3>Desenvolvimento Web</h3>
+            <p>Construção de sites modernos e responsivos.</p>
+        </div>
+        <div class="service">
+            <h3>E-commerce</h3>
+            <p>Soluções personalizadas para lojas online.</p>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Clientes</h2>
+        <p>"Essa empresa transformou o nosso negócio!" - Cliente Satisfeito</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu E-mail" required>
+            <textarea placeholder="Sua Mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nome da Empresa. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

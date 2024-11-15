@@ -1,0 +1,132 @@
+/* styles.css */
+
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+img{
+    width: 50px;
+    margin-right: 30px ;
+}
+
+header {
+    background: #0a15a3;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.cta-button {
+    background: #206110;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#hero {
+    background: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+#services .service {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+footer {
+    background: #0a15a3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilo do Carrossel */
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f4f4f4; /* cor de fundo combinando com o tema */
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
